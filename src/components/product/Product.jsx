@@ -4,7 +4,7 @@ import React from 'react';
 import './Product.css'
 
 const Product = (props) => {
-    console.log(props.product)
+    // console.log(props.product)
     const {name,ratings,img,seller, price} = props.product;
 
     // handle function btn

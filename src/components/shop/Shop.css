@@ -12,6 +12,8 @@
 .cart-container{
     background-color: orange;
     height: 100vh;
+    position: sticky;
+    top: 0;
 }
 .order-summary{
     padding: 15px;
