@@ -1,0 +1,47 @@
+.reviw-items {
+    display: flex;
+    align-items: center;
+    width: 571px;
+    height: 107px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.img {
+    width: 107px;
+    height: 107px;
+    border-radius: 6px;
+}
+
+.item-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    margin: 0 15px;
+
+    color: #1C2B35;
+}
+.item-details p{
+    margin: 8px 15px;
+   
+}
+.item-details{
+    flex-grow: 1;
+}
+.review-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+}
+.svg{
+    width: 35px;
+    height: 35px;
+}
